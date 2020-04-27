@@ -1,0 +1,75 @@
+/* 
+Styles for the Internal Red Tape Reduction Report website
+
+An Ottawa Civic Tech project
+https://ottawacivictech.ca/
+ */
+
+.heading-nav a.active {
+  font-weight: bold;
+}
+
+#header {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#header h1 {
+  font-size: 3rem;
+}
+
+#nav {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #efeff0;
+  border-color: #e2e3e5;
+  border-top: 1px solid #e2e3e5;
+  border-bottom: 1px solid #e2e3e5;
+  margin-bottom: 1.5rem;
+}
+
+#footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.0rem;
+  border-top: 1px solid #e2e3e5;
+  background-color: #efeff0;
+}
+
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+  margin-bottom: 1.2rem;
+}
+
+#main h2 {
+  font-size: 2.4rem;
+}
+#main h3 {
+  font-size: 2.2rem;
+}
+#main h4 {
+  font-size: 1.8rem;
+}
+#main h5 {
+  font-size: 1.4rem;
+}
+#main h6 {
+  font-size: 1.2rem;
+}
+
+#main p, #main blockquote, #main ul, #main ol {
+  font-size: 1.1rem;
+  font-size: 18px;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 1.65;
+  
+
+  max-width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 1.3rem;
+}
+
+#main blockquote {
+  padding-left: 2rem;
+}
