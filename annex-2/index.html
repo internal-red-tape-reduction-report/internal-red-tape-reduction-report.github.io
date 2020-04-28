@@ -43,7 +43,7 @@ Two central themes emerge from these stories: the challenges inherent in transit
   </div>
 
 </section>
-<section id="nav">
+<section id="nav" class="d-print-none">
 
   <div class="container">
 
@@ -84,7 +84,7 @@ Two central themes emerge from these stories: the challenges inherent in transit
     <h2 class="section-heading">Annex 2: Snapshots of internal red tape stories</h2>
 
     
-      <aside>
+      <aside class="d-print-none">
         <nav id="TableOfContents">
   <ul>
     <li><a href="#snapshot--getting-it-help">Snapshot:  Getting IT help</a></li>
@@ -663,32 +663,20 @@ grassroots level . . .&rdquo;</p>
 
     
 
-<nav class="entry-navigation">
+<nav class="entry-navigation mt-5 d-print-none">
   <div class="row">
     <div class="col-md-6">
       
-      <div class="entry-navigation--left">
-        <i class="ui-arrow-left"></i>
-        <span class="entry-navigation__label">Previous</span>
-        <div class="entry-navigation__link">
         
-        <a href="http://example.org/annex-1/" rel="next">Annex 1: How the project was done</a>
+          <a href="http://example.org/annex-1/" class="btn btn-outline-primary my-2" rel="prev">&laquo; Annex 1: How the project was done</a>
         
-        </div>
-      </div>
       
     </div>
     <div class="col-md-6 text-right">
       
-      <div class="entry-navigation--right">
-        <span class="entry-navigation__label">Next</span>
-        <i class="ui-arrow-right"></i>
-        <div class="entry-navigation__link">
         
-        <a href="http://example.org/annex-3/" rel="prev">Annex 3: A service strategy for internal services</a>
+          <a href="http://example.org/annex-3/" class="btn btn-outline-primary my-2" rel="next">Annex 3: A service strategy for internal services &raquo;</a>
         
-        </div>
-      </div>
       
     </div>
   </div>
@@ -702,9 +690,18 @@ grassroots level . . .&rdquo;</p>
 <section id="footer">
 
   <div class="container">
-    <aside>
+    <aside class="d-print-none">
 
-      <p><a href="#">Back to top</a></p>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="/" class="btn btn-outline-primary">Home</a>
+        </div>
+        <div class="col-md-6 text-right">
+          <button class="btn btn-outline-primary irt-print-current">Print this page</button> &nbsp;<a href="#" class="btn btn-outline-primary">Back to top</a>
+        </div>
+      </div>
+
+      <p></p>
 
       <p>Published in September 2016 by the <a href="https://www.canada.ca/en/privy-council/services/blueprint-2020/about.html">Blueprint 2020</a> Internal Red Tape Reduction Tiger Team.</p>
 
@@ -714,6 +711,14 @@ grassroots level . . .&rdquo;</p>
         
       <p>An <a href="https://ottawacivictech.ca/">Ottawa Civic Tech project</a>.</p>
     </aside>
+
+    <aside class="d-none d-print-block">
+      <p>Published in September 2016 by the Blueprint 2020 Internal Red Tape Reduction Tiger Team.</p>
+      <p>Document released under the Access to Information Act.</p>
+      <p>An Ottawa Civic Tech project.</p>
+      <p>http://example.org/annex-2/</p>
+    </aside>
+
   </div>
 
 </section>
@@ -722,6 +727,8 @@ grassroots level . . .&rdquo;</p>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript" language="javascript" src="/js/app.js"></script>
 
 
 <script type="application/javascript">
